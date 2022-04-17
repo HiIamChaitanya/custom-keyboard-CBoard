@@ -12,7 +12,7 @@ git clone https://github.com/HiIamChaitanya/custom-keyboard.git
 
 ## layout
 
-![layout](images/keyboard-layout.png)
+![layout](images/board-layout/keyboard-layout.png)
 
 ---
 
@@ -23,7 +23,7 @@ git clone https://github.com/HiIamChaitanya/custom-keyboard.git
 - keycaps (of your choice)
 - keycaps (of your choice)
 - 0.2W RGB SMD LED
-
+- microcontroller (STM32F030C8T6) - 32Bit ARM core, Embedded Microcontroller 64KB (64K x 8) FLASH 
 **_will update list soon_**
 
 ---
@@ -43,12 +43,38 @@ git clone https://github.com/HiIamChaitanya/custom-keyboard.git
 
 ---
 
-## keyboard application (for windows & linux)
-
-***electron js***
 
 
-_under development_
+
+
+
+
+
+
+
+## datasheet for component's
+
+- [mechanical switches](datasheet/mechanical-switches.pdf)
+- [rgb led](datasheet/rgb-led-datasheet.pdf)
+- [USB Type-C 16pin](datasheets/USB-Type-C-16pin-Datasheet.pdf)
+- [microcontroller datasheet](datasheets/STM32F030C8T6-microcontroller-datasheet.pdf)
+
+
+
+
+
+
+
+
+
+
+
+---
+## Keyboard fermware
+- [QMK firmware](https://github.com/qmk/qmk_firmware)
+---
+## keyboard application for windows & linux
+under development
 
 ---
 
